@@ -14,6 +14,8 @@ ro.usb.bpt_adb=0x2e29
 ro.usb.bpteth=0x2e2a
 ro.usb.bpteth_adb=0x2e2b
 
+persist.sys.isUsbOtgEnabled=true
+
 # device
 ro.product.device=peregrine
 ro.product.model=Moto G LTE
