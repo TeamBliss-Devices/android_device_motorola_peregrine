@@ -1,5 +1,8 @@
 # system.prop for peregrine
 
+# radio
+rild.libargs=-d /dev/smd0
+
 # device
 ro.product.device=peregrine
 ro.product.model=Moto G LTE
