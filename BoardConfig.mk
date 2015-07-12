@@ -39,6 +39,9 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
 # inherit from the proprietary version
 -include vendor/motorola/peregrine/BoardConfigVendor.mk
 
+# LZMA Compression
+WITH_LZMA_OTA := true
+
 # Block_Build
 Bliss_Build_Block := 1 
 
